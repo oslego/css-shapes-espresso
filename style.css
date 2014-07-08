@@ -21,6 +21,7 @@ article{
   margin: 0 auto;
 }
 
+
 p {
   font-size: 1.1em;
   line-height: 1.6;
@@ -29,8 +30,8 @@ p {
 }
 
 .coffee{
-  -webkit-shape-outside: circle(50% at 50% 50%) margin-box;
-  shape-outside: circle(50% at 50% 50%) margin-box;
+  -webkit-shape-outside: circle(50% at 50% 50%);
+  shape-outside: circle(50% at 50% 50%);
 
   float: left;
   margin: 1em;
@@ -44,10 +45,10 @@ p {
 }
 
 .spoon{
-  -webkit-shape-outside: polygon(nonzero, 30px 438px, 11px 408px, 15px 361px, 36px 310px, 84px 281px, 112px 254px, 218px 3px, 286px 38px, 151px 270px, 145px 307px, 156px 363px, 128px 420px, 102px 444px, 66px 453px) margin-box;
+  -webkit-shape-outside: polygon(nonzero, 30px 438px, 11px 408px, 15px 361px, 36px 310px, 84px 281px, 112px 254px, 218px 3px, 286px 38px, 151px 270px, 145px 307px, 156px 363px, 128px 420px, 102px 444px, 66px 453px);
   -webkit-shape-margin: 0.5em;
 
-  shape-outside: polygon(nonzero, 30px 438px, 11px 408px, 15px 361px, 36px 310px, 84px 281px, 112px 254px, 218px 3px, 286px 38px, 151px 270px, 145px 307px, 156px 363px, 128px 420px, 102px 444px, 66px 453px) margin-box;
+  shape-outside: polygon(nonzero, 30px 438px, 11px 408px, 15px 361px, 36px 310px, 84px 281px, 112px 254px, 218px 3px, 286px 38px, 151px 270px, 145px 307px, 156px 363px, 128px 420px, 102px 444px, 66px 453px);
   shape-margin: 0.5em;
 
   float: right;
