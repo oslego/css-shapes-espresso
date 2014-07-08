@@ -33,7 +33,7 @@ p{
 }
 
 .coffee{
-  shape-outside: circle(50% at 50% 50%) margin-box;
+  -webkit-shape-outside: circle(50% at 50% 50%) margin-box;
   float: left;
   margin: 1em;
   width: 380px;
@@ -48,7 +48,7 @@ p{
 }
 
 .spoon{
-  shape-outside: polygon(nonzero, 30px 438px, 11px 408px, 15px 361px, 36px 310px, 84px 281px, 112px 254px, 218px 3px, 286px 38px, 151px 270px, 145px 307px, 156px 363px, 128px 420px, 102px 444px, 66px 453px) margin-box;
+  -webkit-shape-outside: polygon(nonzero, 30px 438px, 11px 408px, 15px 361px, 36px 310px, 84px 281px, 112px 254px, 218px 3px, 286px 38px, 151px 270px, 145px 307px, 156px 363px, 128px 420px, 102px 444px, 66px 453px) margin-box;
   shape-margin: 0.5em;
   float: right;
   margin: 1em -10% 1em 1em;
